@@ -40,7 +40,7 @@ The Following entities will be present in the network :
     13. Stop sharing all files(Logout) 
     14. Whenever client logins, all previously shared files before logout should automatically be on sharing mode 
 
-**Working:** 
+## Working
 
 1. At Least one tracker will always be online. 
 1. Client needs to create an account (userid and password) in order to be part of the network. 
@@ -55,7 +55,7 @@ The Following entities will be present in the network :
 11. As soon as a piece of file gets downloaded it should be available for sharing 12.After logout, the client should temporarily stop sharing the currently shared files till the next login 
 13. All trackers need to be in sync with each other 
 
-**Commands:** 
+## Commands
 
 1. Tracker: 
     1. Run Tracker: ./tracker tracker\_info.txt tracker\_no tracker\_info.txt - Contains ip, port details of all the trackers 
